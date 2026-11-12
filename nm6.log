@@ -1,0 +1,8 @@
+read 1062 near misses with m = 6 and slack <= 2 from full_families.csv
+writing nm6_classes.csv
+
+near-miss classes for m = 6 (1062 labeled families -> 17 isomorphism classes)
+  slack 1: 3 classes (3 are the named families A/B/C, 0 split as products)
+  slack 2: 14 classes (0 are the named families A/B/C, 3 split as products)
+  named families present: (A) yes, (B) yes, (C) yes
+  prediction 'the slack-1 classes are exactly A, B, C': HOLDS

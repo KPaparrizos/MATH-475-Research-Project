@@ -1,0 +1,54 @@
+  VIOLATION of Frankl, family bitmask 0x0000000000000007
+  VIOLATION of Conj2, family bitmask 0x0000000000000007
+self-tests passed (the VIOLATION line above is the intended test failure)
+writing full_summary.csv
+writing full_families.csv
+
+m = 1: 1 separating union-closed families containing the empty set
+  Frankl     hypothesis met            2   failures 0
+  Conj2      hypothesis met            1   failures 0
+  Conj3      hypothesis met            2   failures 0
+  Conj4      hypothesis met            2   failures 0
+  S2(CuiHu)  hypothesis met            0   failures 0
+  near-misses (not a power set, max frequency <= N/2 + 1): slack1 0  slack2 0
+
+m = 2: 3 separating union-closed families containing the empty set
+  Frankl     hypothesis met            6   failures 0
+  Conj2      hypothesis met            5   failures 0
+  Conj3      hypothesis met            2   failures 0
+  Conj4      hypothesis met            2   failures 0
+  S2(CuiHu)  hypothesis met            0   failures 0
+  near-misses (not a power set, max frequency <= N/2 + 1): slack1 2  slack2 0
+
+m = 3: 35 separating union-closed families containing the empty set
+  Frankl     hypothesis met           70   failures 0
+  Conj2      hypothesis met           69   failures 0
+  Conj3      hypothesis met            3   failures 0
+  Conj4      hypothesis met            3   failures 0
+  S2(CuiHu)  hypothesis met            4   failures 0
+  near-misses (not a power set, max frequency <= N/2 + 1): slack1 13  slack2 18
+
+m = 4: 2039 separating union-closed families containing the empty set
+  Frankl     hypothesis met         4078   failures 0
+  Conj2      hypothesis met         4077   failures 0
+  Conj3      hypothesis met            4   failures 0
+  Conj4      hypothesis met            4   failures 0
+  S2(CuiHu)  hypothesis met          304   failures 0
+  near-misses (not a power set, max frequency <= N/2 + 1): slack1 20  slack2 404
+
+m = 5: 1352390 separating union-closed families containing the empty set
+  Frankl     hypothesis met      2704780   failures 0
+  Conj2      hypothesis met      2704779   failures 0
+  Conj3      hypothesis met            5   failures 0
+  Conj4      hypothesis met            5   failures 0
+  S2(CuiHu)  hypothesis met       235749   failures 0
+  near-misses (not a power set, max frequency <= N/2 + 1): slack1 30  slack2 510
+
+m = 6: 75945052607 separating union-closed families containing the empty set
+  Frankl     hypothesis met 151890105214   failures 0
+  Conj2      hypothesis met 151890105213   failures 0
+  Conj3      hypothesis met            6   failures 0
+  Conj4      hypothesis met            6   failures 0
+  S2(CuiHu)  hypothesis met  16541927037   failures 0
+  near-misses (not a power set, max frequency <= N/2 + 1): slack1 42  slack2 1020
+exit code 0
